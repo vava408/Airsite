@@ -1,0 +1,58 @@
+/* Ensure the entire page uses a flexbox layout */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Flex-grow for main content to push footer down */
+.main-content {
+  flex-grow: 1;
+}
+
+/* Footer styles */
+footer {
+  background-color: #1a2634;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Other necessary adjustments */
+.avis-section {
+  background-color: #7289da;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: auto; /* Ensure the section takes available space */
+}
+
+.submit-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.avis-list {
+  margin-top: 20px;
+}
+
+.avis-card {
+  background-color: #1a2634;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.avis-card h3 {
+  margin-top: 0;
+}
+
+.avis-card p {
+  margin: 5px 0;
+}
