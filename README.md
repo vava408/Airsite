@@ -6,24 +6,6 @@ Bienvenue sur **Airsite**, un projet open-source développé par [vava408](https
 - [Liste des principales fonctionnalités]
 - [Autres aspects notables]
 
-## 🛠️ Installation
-
-1. **Cloner le dépôt**
-   ```bash
-   git clone https://github.com/vava408/Airsite.git
-   cd Airsite
-   ```
-
-2. **Installer les dépendances**
-   ```bash
-   [commande d'installation selon le langage/stack utilisé]
-   ```
-
-3. **Lancer l'application**
-   ```bash
-   [commande pour exécuter le projet]
-   ```
-
 ## 📂 Structure du projet
 ```
 Airsite/
